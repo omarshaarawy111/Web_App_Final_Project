@@ -1,4 +1,4 @@
-category-encoders==2.3.0
+category-encoders==2.2.2
 matplotlib
 numpy
 pandas
