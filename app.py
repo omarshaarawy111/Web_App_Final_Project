@@ -166,12 +166,12 @@ def pip_predict(x):
         mean_feature = x.groupby([i])['credit_mix'].mean()
         x[i] = x[i].map(mean_feature)
     #finalize data types to be the same like saved trained model
-    lst_int64=['month', 'ssn', 'num_bank_accounts', 'num_credit_card', 'age','interest_rate', 'num_of_loan', 'delay_from_due_date','num_of_delayed_payment', 'credit_mix', 'outstanding_debt','amount_invested_monthly', 'payment_behaviour', 'monthly_balance','credit_history_year', 'credit_history_month', 'No', 'Yes']
-    for i in lst_int64 :
-        x[i]=x[i].astype('int64')
-    lst_float64=['id', 'customer_id', 'name', 'occupation', 'type_of_loan','changed_credit_limit', 'monthly_inhand_salary', 'annual_income','num_credit_inquiries', 'credit_utilization_ratio','total_emi_per_month']   
-    for i in lst_float64 :
-        x[i]=x[i].astype('float64')    
+    #lst_int64=['month', 'ssn', 'num_bank_accounts', 'num_credit_card', 'age','interest_rate', 'num_of_loan', 'delay_from_due_date','num_of_delayed_payment', 'credit_mix', 'outstanding_debt','amount_invested_monthly', 'payment_behaviour', 'monthly_balance','credit_history_year', 'credit_history_month', 'No', 'Yes']
+    #for i in lst_int64 :
+     #   x[i]=x[i].astype('int64')
+    #lst_float64=['id', 'customer_id', 'name', 'occupation', 'type_of_loan','changed_credit_limit', 'monthly_inhand_salary', 'annual_income','num_credit_inquiries', 'credit_utilization_ratio','total_emi_per_month']   
+    #for i in lst_float64 :
+     #   x[i]=x[i].astype('float64')    
     #open our saved trained model ---> the best model and performance we can get
     #apply prediction
     #load the model
