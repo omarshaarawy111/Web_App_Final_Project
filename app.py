@@ -182,7 +182,7 @@ def pip_predict(x):
     #apply prediction
     #load the model
     # Load the pickled model
-    pickled_model = pickle.load(open('../models/train_model.pkl', 'rb'))
+    pickled_model = pickle.load(open('train_model.pkl', 'rb'))
     #create PCA
     pca = PCA(n_components=10)
     x = pca.fit_transform(x)
