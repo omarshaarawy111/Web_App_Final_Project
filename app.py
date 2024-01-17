@@ -202,7 +202,10 @@ def pip_predict(x):
 #web app
 def main():
 #meta data for our web app
-      
+    st.set_page_config(
+        layout="wide",
+        page_title='Credit Score Prediction App💰',    
+    )         
 #login phase
     #check if the user already logged in
     is_logged_in = st.session_state.get('is_logged_in', False)
