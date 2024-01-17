@@ -1,4 +1,4 @@
-category-encoders
+category_encoders
 matplotlib
 numpy
 pandas
