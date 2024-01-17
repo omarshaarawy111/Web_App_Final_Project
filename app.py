@@ -153,7 +153,7 @@ def pip_predict(x):
     #we will use one column only from preprocessed data frame which is credit score
     #apply the first type of encoding
     #import the desired library
-    
+    import category_encoders as ce
     lst_leave=['name','occupation']
     for i in lst_leave :
         x[i]=ce.LeaveOneOutEncoder().fit_transform(x[i],x['credit_mix'])
