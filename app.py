@@ -4,9 +4,7 @@
 #the last page for dashboard
 #important libraries for our app
 import streamlit as st
-import pandas as pd
-import numpy as np
-import sklearn
+
 #function to authenticate user
 def authenticate_user(email, password):
     #super admin credentials
