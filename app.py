@@ -3,7 +3,7 @@
 #move to page with upload button to upload csv file 
 #the last page for dashboard
 #important libraries for our app
-import streamlit as st
+
 import pandas as pd
 import numpy as np
 #function to authenticate user
