@@ -3,5 +3,4 @@ numpy
 pickle
 category-encoder
 plotly.express
-sklearn.decomposition  
-PCA
+sklearn
