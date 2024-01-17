@@ -4,5 +4,5 @@ numpy==1.21.2
 plotly==5.5.1
 matplotlib==3.4.3
 scikit-learn==0.24.2
-category-encoders
+category-encoders==2.3.0
 
