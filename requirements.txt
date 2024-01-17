@@ -219,6 +219,7 @@ outcome==1.2.0
 packaging @ file:///tmp/build/80754af9/packaging_1637314298585/work
 pandas @ file:///C:/b/abs_cdcgk91igc/croots/recipe/pandas_1663772960432/work
 pandas-profiling==3.6.6
+pandas==3.6.6
 pandocfilters @ file:///opt/conda/conda-bld/pandocfilters_1643405455980/work
 panel @ file:///C:/ci/panel_1657899702145/work
 param @ file:///tmp/build/80754af9/param_1636647414893/work
