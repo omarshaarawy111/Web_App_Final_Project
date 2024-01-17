@@ -243,7 +243,7 @@ def show_upload():
         st.success("File uploaded successfully !")
 #dashboard phase (visuals and predictions)
         #page content
-        st.markdown('<h1 style="text-align: center; color : white;font-size:24px,font-family:pt-serif">Credit score dashboard</h1>', unsafe_allow_html=True)
+        st.markdown('<h1 style="text-align: center; color : #000;font-size:24px,font-family:pt-serif">Credit score dashboard</h1>', unsafe_allow_html=True)
         #read the uploaded file as data frame using pandas
         df = pd.read_csv(uploaded_file)
         #page side bar
