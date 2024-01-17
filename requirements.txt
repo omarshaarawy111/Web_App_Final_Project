@@ -2,5 +2,5 @@ pandas
 numpy
 pickle
 category-encoder
-scikit-learn
 plotly.express
+sklearn.decomposition  
