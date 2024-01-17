@@ -49,7 +49,8 @@ def pip_predict(x):
     x.drop('credit_history_age',axis=1,inplace=True)
     #here we found age columns consists of 4 digits some times which is not logical so we can take the first two digits 
     def age(y):
-        return y[:2]
+        y=str(y)
+        return int(y[:2])
     x['age']=x['age'].apply(age)
     #we also has the '_' symbol to be replaced with space better
     x['age']=x['age'].replace('_',' ')
