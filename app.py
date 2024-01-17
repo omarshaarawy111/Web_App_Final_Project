@@ -244,14 +244,14 @@ def show_upload():
         st.success("File uploaded successfully !")
 #dashboard phase (visuals and predictions)
         #page content
-        st.markdown('<h1 style="text-align: center; color : #000;font-size:24px,font-family:pt-serif">Credit score dashboard</h1>', unsafe_allow_html=True)
+        st.markdown('<h1 style="text-align: center; color : #fff;font-size:24px,font-family:pt-serif">Credit score dashboard</h1>', unsafe_allow_html=True)
         #read the uploaded file as data frame using pandas
         df = pd.read_csv(uploaded_file)
         #page side bar
         x=st.sidebar.checkbox('Show Date',False,key=1)
         y=st.sidebar.checkbox('Show Distribution',False,key=2)
         st.sidebar.title("Filters")
-        st.sidebar.markdown('<h1 style="text-align: left; color : #000;font-size:15px,font-family:pt-serif">Filter By Columns</h1>', unsafe_allow_html=True)
+        st.sidebar.markdown('<h1 style="text-align: left; color : #fff;font-size:15px,font-family:pt-serif">Filter By Columns</h1>', unsafe_allow_html=True)
         #rename columns
         #check columns
         #rename columns regrading to the standards
