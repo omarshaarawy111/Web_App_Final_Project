@@ -6,6 +6,11 @@
 import streamlit as st
 import pandas as pd
 import numpy as np
+import pickle  # Added import for pickle
+from sklearn.decomposition 
+import PCA  # Added import for PCA
+from sklearn.preprocessing import StandardScaler  # Added import for StandardScaler
+import plotly.express as px  # Added import for plotly
 #function to authenticate user
 def authenticate_user(email, password):
     #super admin credentials
