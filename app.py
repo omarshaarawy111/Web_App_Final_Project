@@ -177,9 +177,6 @@ def pip_predict(x):
     #load the model
     # Load the pickled model
     pickled_model = pickle.load(open('train_model.pkl', 'rb'))
-    #create PCA
-    pca = PCA(n_components=10)
-    x = pca.fit_transform(x)
     #Standarization
     #create standard scaler object
     scaler = StandardScaler()
