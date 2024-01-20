@@ -178,7 +178,7 @@ def pip_predict(x):
     #apply prediction
     #load the model
     # Load the pickled model
-    pickled_model = pickle.load(open('/absolute/path/to/train_model.pkl', 'rb'))
+    pickled_model = pickle.load(open('train_model.pkl', 'rb'))
     #Standarization
     #create standard scaler object
     scaler = StandardScaler()
