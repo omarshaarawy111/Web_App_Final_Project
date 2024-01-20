@@ -3,10 +3,7 @@
 #move to page with upload button to upload csv file 
 #the last page for dashboard
 #important libraries for our app
-import streamlit as st
-#import libraries that is going to be used in our project 
-import pandas as pd
-import numpy as np
+
 
 #function to authenticate user
 def authenticate_user(email, password):
