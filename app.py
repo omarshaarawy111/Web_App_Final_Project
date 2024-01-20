@@ -7,8 +7,7 @@ import streamlit as st
 #import libraries that is going to be used in our project 
 #function to authenticate user
 def authenticate_user(email, password):
-    #super admin credentials
-    #user email is omar@epsilonai.com and password is 011235813
+   
     return email == "omar@epsilonai.com" and password == "011235813"
 
 #function to apply manual pipeline to the coming data (cleaning,feature engineering and encoding) then predict and return the target column of our uploaded data
